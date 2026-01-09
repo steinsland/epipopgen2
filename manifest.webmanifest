@@ -1,0 +1,37 @@
+{
+  "name": "EpiPopGen",
+  "short_name": "EpiPopGen",
+  "id": "./",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#03173d",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-mask.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "desktop.jpg",
+      "sizes": "875x648",
+      "type": "image/jpg",
+      "form_factor": "wide",
+      "label": "Application"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+@import '_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.boiwgh0w5b.bundle.scp.css';
+
+/* /Layout/MainLayout.razor.rz.scp.css */
+.page[b-1nm29g2wtj] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-1nm29g2wtj] {
+    flex: 1;
+}
+
+.sidebar[b-1nm29g2wtj] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-1nm29g2wtj] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-1nm29g2wtj]  a, .top-row[b-1nm29g2wtj]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-1nm29g2wtj]  a:hover, .top-row[b-1nm29g2wtj]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-1nm29g2wtj]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row[b-1nm29g2wtj] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-1nm29g2wtj]  a, .top-row[b-1nm29g2wtj]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-1nm29g2wtj] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-1nm29g2wtj] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-1nm29g2wtj] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-1nm29g2wtj]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-1nm29g2wtj], article[b-1nm29g2wtj] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Pages/PopGenForm.razor.rz.scp.css */
+[b-rdgjf2jige] .btn-primary {
+    font-size: 0.875rem;
+    justify-self: stretch;
+    margin: 3px;
+}
+
+[b-rdgjf2jige] .btn-dependency-select {
+    border-radius: 0rem;
+    background-color: #e5e6e7;
+    color: #000;
+    border-color: #e5e6e7;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] {
+    font-size: 0.875rem;
+    column-gap: 0rem;
+    vertical-align: middle;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead {
+    position: sticky;
+    top: 0;
+    border-style: none;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] .col-header-content {
+    padding: 0rem;
+    padding-right: 0rem;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead > tr > th {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    border-style: none;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > tbody > tr > td {
+    padding: 0rem;
+    border-style: none;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] .col-title {
+    gap: 0rem;
+    font-weight: normal;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead .col-width-0 {
+    width: 0.750rem;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead .col-width-1 {
+    width: 1.000rem;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead .col-width-2 {
+    width: 1.250rem;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead .col-width-3 {
+    width: 1.750rem;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead .col-width-4 {
+    width: 2.000rem;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead .col-width-5 {
+    width: 2.500rem;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead .col-width-6 {
+    width: 3.125rem;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead .col-width-7 {
+    width: 3.750rem;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead .col-width-8 {
+    width: 4.375rem;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead .col-width-9 {
+    width: 5.000rem;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead .col-width-10 {
+    width: 5.750rem;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead .col-width-11 {
+    width: 6.375rem;
+}
+
+[b-rdgjf2jige] .quickgrid[theme=default] > thead .padded-column {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/*
+::deep .quickgrid[theme=AdjColWidth] > thead .chars0 {
+    width: 1.0rem;
+    margin: auto;
+    height: 36px;
+}
+
+::deep .quickgrid[theme=AdjColWidth] > thead .chars1 {
+    width: 1.25rem;
+    margin: auto;
+    height: 36px;
+}
+
+::deep .quickgrid[theme=AdjColWidth] > thead .chars2 {
+    width: 1.75rem;
+    margin: auto;
+    height: 36px;
+}
+
+::deep .quickgrid[theme=AdjColWidth] > thead .chars3 {
+    width: 2.0rem;
+    margin: auto;
+    height: 36px;
+}
+
+::deep .quickgrid[theme=AdjColWidth] > thead .chars4 {
+    width: 2.5rem;
+    margin: auto;
+    height: 36px;
+}
+
+::deep .quickgrid[theme=AdjColWidth] > thead .chars5 {
+    width: 3.125rem;
+    margin: auto;
+    height: 36px;
+}
+
+::deep .quickgrid[theme=AdjColWidth] > thead .chars6 {
+    width: 3.75rem;
+    margin: auto;
+    height: 36px;
+}
+
+::deep .quickgrid[theme=AdjColWidth] > thead .chars7 {
+    width: 4.375rem;
+    margin: auto;
+    height: 36px;
+}
+
+::deep .quickgrid[theme=AdjColWidth] > thead .chars8 {
+    width: 5.00rem;
+    margin: auto;
+    height: 36px;
+}
+
+::deep .quickgrid[theme=AdjColWidth] > thead .chars9 {
+    width: 5.625rem;
+    margin: auto;
+    height: 36px;
+}
+
+::deep .quickgrid[theme=AdjColWidth] > thead .chars10 {
+    width: 6.25rem;
+    margin: auto;
+    height: 36px;
+}
+*/
+
+
+
+/*.quickgrid .col-header-content {
+    scroll-padding: 10px;
+    resize: horizontal;
+    overflow: hidden;
+    min-width:100%!important;
+   
+}*/
