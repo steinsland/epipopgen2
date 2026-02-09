@@ -1,4 +1,4 @@
-/* Manifest version: NVcSrlwE */
+/* Manifest version: LE+dNn8q */
 // Caution! Be sure you understand the caveats before publishing an application with
 // offline support. See https://aka.ms/blazor-offline-considerations
 
@@ -11,9 +11,6 @@ const cacheNamePrefix = 'offline-cache-';
 const cacheName = `${cacheNamePrefix}${self.assetsManifest.version}`;
 const offlineAssetsInclude = [ /\.dll$/, /\.pdb$/, /\.wasm/, /\.html/, /\.js$/, /\.json$/, /\.css$/, /\.woff$/, /\.png$/, /\.jpe?g$/, /\.gif$/, /\.ico$/, /\.blat$/, /\.dat$/, /\.webmanifest$/ ];
 const offlineAssetsExclude = [ /^service-worker\.js$/ ];
-
-// Replace with your base path if you are hosting on a subfolder. Ensure there is a trailing '/'.
-
 const base = "/epipopgen2/";
 //const base = "/";
 const baseUrl = new URL(base, self.origin);
@@ -21,6 +18,9 @@ const manifestUrlList = self.assetsManifest.assets.map(asset => new URL(asset.ur
 
 async function onInstall(event) {
     console.info('Service worker: Install');
+
+    // The skipWaiting whould be implemented together with notification asking user to refresh
+    //self.skipWaiting();
 
     // Fetch and cache all matching items from the assets manifest
     const assetsRequests = self.assetsManifest.assets
